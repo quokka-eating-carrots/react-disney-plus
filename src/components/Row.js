@@ -19,6 +19,7 @@ const Row = ({ title, id, fetchUrl }) => {
   }
 
   const handleClick = movie => {
+    setMovieSelected(movie)
     setModalOpen(true)
   }
 
